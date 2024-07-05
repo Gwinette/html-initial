@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@600&family=Roboto:wght@100&family=Work+Sans:wght@600&display=swap');
+
+:root {
+    /* colors */
+    --light-blue: #d6dbff;
+    --black: #000000;
+    --white: #FFFFFF;
+}
+
+body {
+    margin: 0 40px;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.header__nav {
+    background-color: var(--light-blue);
+    font-weight: 700;
+    padding: 10px 20px;
+}
+
+.nav__item{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.section_odd {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    border: var(--black) solid 2px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.section_even {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: var(--light-blue);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.iframe {
+    margin: 10px 30px;
+    width: 900px;
+    height: 500px;
+    border: 0;
+}
+
+th, td {
+    border: 1px solid;
+}
+
+table {
+    border: 1px solid;
+    width: 900px;
+    margin: 0 65px;
+}
+
+.footer{
+    background-color: var(--black);
+    color: var(--white);
+    padding: 10px 20px;
+}
+
+.history {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-image: url("https://canti.pw/images/articles/23_02.png");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-color: var(--light-blue);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.comment {
+    margin: 20px;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+}
